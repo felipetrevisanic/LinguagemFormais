@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagem formal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section user">
+        <input type="text" class="input" placeholder="Insira a formula aqui" value="S=aA|bB;A=aS;B=b|bC;C=bB">
+        <button onclick="gerarResultadoFormula()" class="botao">Executar</button>
+        <div class="resultados"></div>
+    </div>
+    <div class="section">
+        <h2>Exemplo 2</h2>
+        <input class="input2" value="S=aA|bB;A=aS;B=b|bC;C=bB">
+        <div class="resultados2"></div>
+    </div>
+    <div class="section">
+        <h2>Exemplo 3</h2>
+        <input class="input3" value="S=aAc;A=c|aBb;B=db">
+        <div class="resultados3"></div>
+    </div>
+    <div class="section">
+        <h2>Exemplo 4</h2>
+        <input class="input4" value="S=aS|bS|~">
+        <div class="resultados4"></div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+
+</html>

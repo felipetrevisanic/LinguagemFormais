@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.253);
+  }
+
+  .section {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 1px white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    overflow-y: auto;
+    
+  }
+
+  .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user button, .user input{
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .user button{
+    
+  }
+
+  .user button{
+    background-color: greenyellow;
+    margin: 16px;
+    cursor: pointer;
+  }
+
+  .input2, .input3, .input4{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 50%;
+  }
